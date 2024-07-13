@@ -22,7 +22,7 @@ function Home() {
 
     const fetchProducts = async () => {
         try {
-            const url = "https://description-generator-backend-nu.vercel.app/auth/products";
+            const url = "https://description-generator-backend-nu.vercel.app/products";
             const headers = {
                 headers: {
                     'Authorization': localStorage.getItem('token')
