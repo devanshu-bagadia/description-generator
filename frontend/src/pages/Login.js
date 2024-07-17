@@ -57,6 +57,20 @@ function Login() {
     }
 
     return (
+        <div>
+        <div>
+        <nav className="nav">
+      <a href="/" className="site-title">
+        Description Generator
+      </a>
+      <ul>
+        <li>
+          <a href="">ALL TOOLS</a>
+          <a href="">About us</a>
+        </li>
+      </ul>
+    </nav>
+        </div>
         <div className='container'>
             <h1>Login</h1>
             <form onSubmit={handleLogin}>
@@ -86,6 +100,7 @@ function Login() {
                 </span>
             </form>
             <ToastContainer />
+        </div>
         </div>
     )
 }

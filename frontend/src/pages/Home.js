@@ -46,11 +46,11 @@ function Home() {
             <button onClick={handleLogout}>Logout</button>
             <div>
                 {
-                    products && products?.map((item, index) => (
-                        <ul key={index}>
-                            <span>{item.name} : {item.price}</span>
-                        </ul>
-                    ))
+                  //  products && products?.map((item, index) => (
+                   //     <ul key={index}>
+                   //         <span>{item.name} : {item.price}</span>
+                    //    </ul>
+                   // ))
                 }
             </div>
             <ToastContainer />
