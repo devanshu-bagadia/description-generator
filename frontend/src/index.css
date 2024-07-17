@@ -72,13 +72,15 @@ button{
 }
 
 .nav {
-  background-color: #333;
+  background-color: #613ee3;
   color: white;
   display: flex;
   justify-content: space-between;
   align-items: stretch;
   gap: 2rem;
   padding: 0 1rem;
+  position:fixed;
+  top :0;
 }
 .site-title {
   font-size: 2rem;
