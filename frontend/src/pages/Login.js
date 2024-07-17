@@ -66,6 +66,7 @@ function Login() {
       <ul>
         <li>
           <a href="">ALL TOOLS</a>
+          <a href="">About us</a>
         </li>
       </ul>
     </nav>
