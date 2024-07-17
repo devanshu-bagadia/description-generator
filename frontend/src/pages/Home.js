@@ -45,6 +45,16 @@ function Home() {
             <h1>Welcome {loggedInUser}</h1>
             <button onClick={handleLogout}>Logout</button>
             <div>
+            <nav className="nav">
+      <a href="/" className="site-title">
+        Description Generator
+      </a>
+      <ul>
+        <li>
+          <a href="">ALL TOOLS</a>
+        </li>
+      </ul>
+    </nav>
                 {
                   //  products && products?.map((item, index) => (
                    //     <ul key={index}>

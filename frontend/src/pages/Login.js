@@ -66,23 +66,11 @@ function Login() {
       <ul>
         <li>
           <a href="">ALL TOOLS</a>
-          <a href="">About us</a>
         </li>
       </ul>
     </nav>
         </div>
         <div className='container'>
-        <nav className="nav">
-      <a href="/" className="site-title">
-        Description Generator
-      </a>
-      <ul>
-        <li>
-          <a href="">ALL TOOLS</a>
-          <a href="">About us</a>
-        </li>
-      </ul>
-    </nav>
             <h1>Login</h1>
             <form onSubmit={handleLogin}>
                 <div>
